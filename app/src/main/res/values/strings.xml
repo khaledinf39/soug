@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">soug</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="shope">تسوق</string>
+    <string name="offers">عروض</string>
+    <string name="more">المزيد</string>
+    <string name="stores">محلات</string>
+    <string name="bag">السلة</string>
+    <string name="my_account">حسابي</string>
+    <string name="suport">خدمة العملاء</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="fllowus">تابعنا على</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kira">كراء</string>
+    <string name="Men">رجال</string>
+    <string name="bestthig">أفخر الألبسة</string>
+    <string name="Wemen">نساء</string>
+    <string name="Boy">أطفال</string>
+    <string name="you_have">لدبك</string>
+    <string name="in_bag">في سلتك</string>
+    <string name="contin_order">إتمام الطلب</string>
+    <string name="total">المجموع</string>
+    <string name="edite_prod">تعديل المنتج</string>
+    <string name="size">المقاس</string>
+    <string name="color">اللون</string>
+    <string name="address">العنوان</string>
+    <string name="review">مراجعة الطلب</string>
+    <string name="full_name">الإسم بالكامل</string>
+    <string name="address1">العنوان الأول</string>
+    <string name="address2">العنوان الثاني</string>
+    <string name="city">الحي</string>
+    <string name="delivring">سعر التوصيل</string>
+    <string name="thanks">شكرا لك !</string>
+    <string name="thanks_text">تم ارسال طلبك بنجاح يمكنك متابعته تحت الرقم الموظح بالاسفل</string>
+    <string name="contin_shop">الرجوع لتسوق</string>
+    <string name="add_tobag">إضافة الى السلة</string>
+</resources>

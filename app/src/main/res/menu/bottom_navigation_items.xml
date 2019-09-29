@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+        android:id="@+id/basket"
+        android:title="كراء"
+android:icon="@drawable/ic_kira_white"
+
+
+        />
+    <!--<item-->
+        <!--android:title="سلة المشتريات"-->
+        <!--android:id="@+id/basket"-->
+
+        <!--app:actionLayout="@layout/basket_bg"-->
+        <!--app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/store"
+        android:title="متاجر"
+        android:icon="@drawable/ic_stores_act"
+
+        />
+    <item
+        android:id="@+id/empty"
+        android:title=""
+
+        />
+    <item
+        android:id="@+id/categories"
+        android:title="عروض"
+        android:icon="@drawable/ic_offers_desc"
+
+        />
+    <item
+        android:checkable="true"
+        android:checked="true"
+        android:id="@+id/home"
+        android:title="تسوق"
+        android:icon="@drawable/ic_shope_desc"
+        app:showAsAction="always"
+
+        />
+    <!--android:icon="@drawable/menu_steps"-->
+</menu>

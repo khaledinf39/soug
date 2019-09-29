@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+<LinearLayout
+    app:layout_constraintTop_toTopOf="parent"
+    android:id="@+id/lin1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@drawable/drawer_menu_top"
+    app:layout_constraintBottom_toTopOf="@+id/lin2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/whate"
+            android:text="@string/shope"
+            android:fontFamily="@font/saudi"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_drawer_menu"
+            android:gravity="center"
+
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_shope_whit"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whate"
+                android:text="@string/shope"
+                android:fontFamily="@font/saudi"
+                android:layout_marginTop="5dp"
+
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+<View
+    android:layout_width="1dp"
+    android:layout_height="match_parent"
+    android:background="@color/grey3"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/whate"
+            android:text="@string/shope"
+            android:fontFamily="@font/saudi"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_drawer_menu"
+            android:gravity="center"
+
+            >
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whate"
+                android:text="@string/shope"
+                android:fontFamily="@font/saudi"
+
+
+                android:gravity="center"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_bag_orng_nb"
+                    app:layout_constraintTop_toTopOf="@+id/bag_img"
+                    android:layout_marginLeft="39dp"
+                    android:gravity="center"
+                    app:layout_constraintLeft_toLeftOf="@+id/bag_img">
+                    <TextView
+                        app:layout_constraintTop_toBottomOf="@+id/bag_img"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey1"
+                        android:text="3"
+                        android:fontFamily="@font/saudi"
+
+
+                        android:gravity="center"
+
+                        />
+                </LinearLayout>
+
+                <ImageView
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:id="@+id/bag_img"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+
+                    android:src="@drawable/ic_bag_whit"/>
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@+id/bag_img"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/whate"
+                    android:text="@string/bag"
+                    android:fontFamily="@font/saudi"
+                    android:layout_marginTop="5dp"
+
+                    android:gravity="center"
+
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/whate"
+            android:text="@string/shope"
+            android:fontFamily="@font/saudi"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_drawer_menu"
+            android:gravity="center"
+
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_offers_whit"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whate"
+                android:text="@string/offers"
+                android:fontFamily="@font/saudi"
+                android:layout_marginTop="5dp"
+
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey3"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/whate"
+            android:text="@string/stores"
+            android:fontFamily="@font/saudi"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_drawer_menu"
+            android:gravity="center"
+
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_kira_white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whate"
+                android:text="@string/kira"
+                android:fontFamily="@font/saudi"
+                android:layout_marginTop="5dp"
+
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <View
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey3"
+        android:layout_centerInParent="true"/>
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/lin2"
+        app:layout_constraintTop_toBottomOf="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4.5"
+        android:background="@color/grey2">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/whate"
+            android:text="@string/my_account"
+            android:fontFamily="@font/saudi"
+            android:layout_marginTop="5dp"
+android:background="@drawable/btn_drawer_menu"
+            android:gravity="center"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey3"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/whate"
+            android:text="@string/suport"
+            android:fontFamily="@font/saudi"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_drawer_menu"
+            android:gravity="center"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey3"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/orenge"
+            android:text="@string/logout"
+            android:fontFamily="@font/saudi"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_drawer_menu"
+            android:gravity="center"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey3"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:textColor="@color/whate"
+            android:text="@string/fllowus"
+            android:fontFamily="@font/saudi"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_drawer_menu"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_facebook"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_twitter"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_view_line_center"
+        android:layout_centerInParent="true"
+        app:layout_constraintTop_toBottomOf="@+id/lin1"
+        app:layout_constraintBottom_toTopOf="@+id/lin2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
